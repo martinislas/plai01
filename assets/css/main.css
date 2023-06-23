@@ -4001,6 +4001,7 @@ footer{
 footer section{
 	display: flex;
 	flex-direction: row;
+	justify-items: space-between;
 }
 footer section div{
 	width: 25%;
@@ -4020,7 +4021,9 @@ footer .row{
 	flex-direction: row;
 }
 
-
+.footerWide {
+	padding: 3em 7em .5em 7em;
+}
 @media screen and (max-width: 1280px) {
 
 	footer{
@@ -4041,4 +4044,26 @@ footer .row{
 		margin: 1em;
 	}
 
+}
+
+.boxy {
+	padding: 6% 20%;
+}
+.boxy .form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	padding: 2em;
+}
+
+.boxy .form label{
+    width: 50%;
+    font-weight: 200;
+    font-size: 1em;
+    margin: 0 1em 0 0;
+	padding: .5em;
+	text-align: right;
+
+	
 }
