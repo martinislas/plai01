@@ -112,7 +112,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Inter', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -183,7 +183,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 5em;
 	}
 
 		h1.major {
@@ -1830,7 +1830,7 @@ input, select, textarea {
 		background-color: transparent;
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
-		border-radius: 3em;
+		border-radius: .5em;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -1846,7 +1846,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-		background-color: #0077C2;
+		background-color: #005cff;
 	}
 
 		input[type="submit"]:after,
@@ -1912,7 +1912,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #00d1b2 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2217,7 +2217,7 @@ input, select, textarea {
 
 		}
 .green{
-	background-color: #00D1B2;
+	background-color: #00d1b2;
 }
 /* Form */
 
@@ -2355,7 +2355,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #002863;
 		}
 
 		select:focus::-ms-value {
@@ -2443,7 +2443,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #002863;
 			content: '\f00c';
 		}
 
@@ -2535,27 +2535,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #005cff;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #005cff;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #005cff;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #005cff;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #005cff;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #005cff;
 				}
 
 /* Image */
@@ -3371,14 +3371,14 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #00d1b2;
+		background-color: #07d2b2;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
 
 		#header > .title {
 			border: 0;
-			color: #ffffff;
+			color: #black;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3738,7 +3738,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(0, 0, 0, 0.76);
+			color: #002863;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3762,14 +3762,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #005cff;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right,  #07d2b2, #005cff );
+				background-image: -webkit-linear-gradient(to right, #07d2b2, #005cff);
+				background-image: -ms-linear-gradient(to right, #07d2b2, #005cff);
+				background-image: linear-gradient(to right, #07d2b2, #005cff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3858,7 +3858,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #002863;
 						}
 
 		}
@@ -3995,7 +3995,7 @@ input, select, textarea {
 
 footer{
 	padding: 3em 3em .5em 20em;
-	background-color: #3e4094;
+	background-color: #002863;
 }
 
 footer section{
@@ -4028,7 +4028,7 @@ footer .row{
 
 	footer{
 		padding: 3em 3em .5em 3em;
-		background-color: #3e4094;
+		background-color: #002863;
 	}
 
 }
@@ -4067,3 +4067,8 @@ footer .row{
 
 	
 }
+
+
+
+
+
